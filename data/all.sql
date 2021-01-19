@@ -1,0 +1,49 @@
+
+
+
+CREATE TABLE IF NOT EXISTS 
+
+ categories (
+
+    id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    name  VARCHAR (50) NOT NULL,
+    img VARCHAR (50)
+  
+);
+
+
+
+
+CREATE TABLE IF NOT EXISTS 
+ authors (
+ id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    name  VARCHAR (50) NOT NULL,
+    img VARCHAR (50)
+    
+);
+
+ 
+
+
+CREATE TABLE IF NOT EXISTS 
+  articles (
+    article_id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    head_Line VARCHAR (50) NOT NULL,
+    subHead VARCHAR (50),
+    content VARCHAR (50) NOT NULL,
+    cover VARCHAR (50)
+   
+);
+
+
+ 
+
+
+CREATE TABLE IF NOT EXISTS 
+Reviews (
+   review_id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    text  VARCHAR (50) NOT NULL,
+    person VARCHAR (50)
+  
+    
+);
