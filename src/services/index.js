@@ -1,18 +1,18 @@
 const router = require("express").Router();
 
 
-// const articlesRouter = require("./articles")
+const articlesRouter = require("./articles/index")
 
-// const AuthorRouter = require("./Authors")
+// const authorRouter = require("./authors")
  
-// const categoryRouter = require("./category")
+// const categoryRouter = require("./categories")
  
 
-// router.use("/articles",articlesRouter)
+router.use("/articles",articlesRouter)
 
-// router.use("/Authors",AuthorRouter)
+// router.use("/author",authorsRouter)
 
-// router.use("/category",categoryRouter)
+// router.use("/category",categoriesRouter)
 
 
 module.exports = router
