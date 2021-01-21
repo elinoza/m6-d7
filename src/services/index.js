@@ -1,7 +1,7 @@
 const router = require("express").Router();
 
 
-const articlesRouter = require("./articles/index")
+const articlesRouter = require("./articles")
 
 // const authorRouter = require("./authors")
  

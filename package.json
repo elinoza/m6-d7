@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "setup":"node scripts/createTables",
-    "start":"nodemon -r  dotenv/config src/",
+    "dev":"nodemon -r  dotenv/config src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
